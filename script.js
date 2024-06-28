@@ -106,20 +106,13 @@ function convertToArabic(roman) {
     }
   }
   if (num < 1 || num >= 4000 || isNaN(num)) {
-    return `Please enter a valid Roman numeral between I and MMMCMXCIX.
-    Valid Roman numerals: 
+    return `Valid Roman numerals: 
     I = 1
-    IV = 4
     V = 5
-    IX = 9
     X = 10
-    XL = 40
     L = 50
-    XC = 90
     C = 100
-    CD = 400
     D = 500
-    CM = 900
     M = 1000`;
   }
   return num;
