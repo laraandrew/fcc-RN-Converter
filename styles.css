@@ -1,12 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, #ff8c42, #ff5e7e, #ff83a9);
+    background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    transition: background 0.5s;
   }
   
   .container {
@@ -14,10 +15,12 @@ body {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    transition: background 0.5s;
   }
   
   h1 {
     margin-bottom: 20px;
+    transition: color 0.5s;
   }
   
   input, button {
@@ -32,6 +35,7 @@ body {
     background: #ff5e7e;
     color: #fff;
     cursor: pointer;
+    transition: background 0.3s;
   }
   
   button:hover {
@@ -40,7 +44,18 @@ body {
   
   #output {
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: bolder;
+    max-width: 500px;
+    padding: 1em;
+  }
+  
+  .mode-btn {
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #ff8c42;
+    transition: background 0.5s;
   }
   
